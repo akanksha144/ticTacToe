@@ -7,9 +7,12 @@ import Board from "./TicTacToeGame/Board"
 function App() {
 
   return (
+    <div>
+       <h1 className="head">Tic Tac Toe Game</h1>
     <div className="App">
       <Board />
-    </div>
+      </div> 
+      </div>
   )
 }
 
